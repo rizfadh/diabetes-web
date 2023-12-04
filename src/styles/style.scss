@@ -21,3 +21,17 @@ $theme-colors: map-merge(
 .text-justify {
     text-align: justify;
 }
+
+// Hide Scrollbar
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+}
+
+html {
+    scrollbar-width: none;
+}

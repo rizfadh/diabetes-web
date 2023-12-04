@@ -7,9 +7,7 @@ function App() {
         <div className='d-flex flex-column justify-content-between min-vh-100'>
             <Navbar />
             <main className='container'>
-                <div className='px-5'>
-                    <Content />
-                </div>
+                <Content />
             </main>
             <Footer />
         </div>

@@ -2,7 +2,7 @@ import { SiBootstrap, SiFastapi, SiReact } from 'react-icons/si'
 
 function Footer() {
     return (
-        <footer>
+        <footer className='mt-5'>
             <div className='container'>
                 <p className='text-center'>
                     Built with{' '}
