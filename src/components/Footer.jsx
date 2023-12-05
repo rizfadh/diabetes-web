@@ -9,7 +9,16 @@ function Footer() {
                     <span className='fs-4 text-primary'>
                         <SiReact /> <SiFastapi /> <SiBootstrap />
                     </span>{' '}
-                    by Muhammad Rizky Fadhillah 2023
+                    by{' '}
+                    <a
+                        className='text-primary text-decoration-none'
+                        href='https://rizky.website'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
+                        Muhammad Rizky Fadhillah
+                    </a>{' '}
+                    2023
                 </p>
             </div>
         </footer>

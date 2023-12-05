@@ -14,12 +14,12 @@ const information = [
     },
     {
         Icon: SiFastapi,
-        text: 'Pembuatan REST API menggunakan framework FastAPI python',
+        text: 'Back-end menggunakan framework FastAPI Python',
         link: 'https://github.com/rizfadh/diabetes-restapi',
     },
     {
         Icon: SiReact,
-        text: 'Pembuatan Frontend menggunakan library React',
+        text: 'Front-end menggunakan library React Javascript',
         link: 'https://github.com/rizfadh/diabetes-web',
     },
 ]

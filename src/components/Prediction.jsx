@@ -41,7 +41,11 @@ function Prediction({ answer }) {
     }, [])
 
     if (prediction.length === 0)
-        return <h2 className='text-primary text-center'>Loading...</h2>
+        return (
+            <div>
+                <h2 className='text-primary text-center'>Memuat hasil</h2>
+            </div>
+        )
 
     return (
         <div className='text-center'>
@@ -71,8 +75,8 @@ function Prediction({ answer }) {
                         width={300}
                     />
                     <p>
-                        Selamat kamu negatif terkena diabetes! pertahankan gaya
-                        hidupmu ya
+                        Selamat kamu negatif terkena diabetes! tetap pertahankan
+                        gaya hidup sehat ya
                     </p>
                 </div>
             )}

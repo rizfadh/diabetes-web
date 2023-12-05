@@ -33,7 +33,7 @@ function Question({ number, question, choices, setNumber, setAnswer }) {
                 <div className='d-grid gap-2 d-md-block'>
                     {choices.map((choice) => (
                         <button
-                            key={choice.text}
+                            key={Math.random()}
                             type='button'
                             className='btn btn-primary mx-md-1'
                             style={{ minWidth: `80px` }}

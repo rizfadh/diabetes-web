@@ -19,8 +19,7 @@ function Intro({ setBegin }) {
                     <div className='d-flex align-items-center h-100 mt-3 mt-md-0'>
                         <div>
                             <h1 className='text-center text-md-start text-primary display-3'>
-                                <span className='text-logo'>DC!</span>{' '}
-                                (DiabetCheck!)
+                                <span className='fw-bold'>DiabetCheck</span>
                             </h1>
                             <p className='text-justify'>
                                 Cek kemungkinan terkena diabetes tahap awal
