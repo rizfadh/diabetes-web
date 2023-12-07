@@ -1,12 +1,12 @@
-function Question({ number, question, choices, setNumber, setAnswer }) {
+function Question({ question, choices, setNumber, setAnswer }) {
     const handleClick = (answer) => {
         setAnswer((prev) => [...prev, answer])
         setNumber((prev) => prev + 1)
     }
 
     return (
-        <div className='text-center'>
-            <p>{`${number + 1}. ${question}`}</p>
+        <div className='w-100 text-center'>
+            <p>{question}</p>
             {choices === null ? (
                 <form
                     className='d-grid gap-2 d-md-flex'
@@ -36,7 +36,7 @@ function Question({ number, question, choices, setNumber, setAnswer }) {
                             key={Math.random()}
                             type='button'
                             className='btn btn-primary mx-md-1'
-                            style={{ minWidth: `80px` }}
+                            style={{ minWidth: '80px' }}
                             onClick={() => handleClick(choice.value)}
                         >
                             {choice.text}
